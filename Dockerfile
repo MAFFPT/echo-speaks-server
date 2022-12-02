@@ -1,4 +1,4 @@
-FROM node:16
+FROM linux/arm/v6 node:16
 
 # Create app directory
 WORKDIR /usr/src/app
